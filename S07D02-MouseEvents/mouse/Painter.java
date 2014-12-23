@@ -1,4 +1,4 @@
-package predavanje.mouse;
+package predavanja;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -17,9 +17,9 @@ public class Painter {
 	 * klase Canvas kao container.
 	 * 
 	 * Ovom container-u postavljamo boju pozadine na bijelu i dajemo
-	 * listenere koji ??e reagovati na osnovne akcije mi??a (press,
-	 * release, click, enter i exit), kao i na kretanje mi??a (pomjeranje
-	 * i povla??enje ??? tj. pomjeranje dok dugme mi??a dr??imo stisnutim).
+	 * listenere koji će reagovati na osnovne akcije miša (press,
+	 * release, click, enter i exit), kao i na kretanje miša (pomjeranje
+	 * i povlačenje — tj. pomjeranje dok dugme miša držimo stisnutim).
 	 * 
 	 * @param args Argumenti komandne linije
 	 */
@@ -31,7 +31,7 @@ public class Painter {
 		canvasPanel.addMouseListener(listener);
 		canvasPanel.addMouseMotionListener(listener);
 		
-		JFrame mainWindow = new JFrame("Na????mali paint");
+		JFrame mainWindow = new JFrame("Naš mali paint");
 		mainWindow.setContentPane(canvasPanel);
 		mainWindow.setSize(300, 200);
 		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -40,9 +40,9 @@ public class Painter {
 	
 	/**
 	 * Klasa koja implementira dva interface-a: MouseListener (za osnovne
-	 * akcije mi??a) i MouseMotionListener (za kretanje i povla??enje kursora mi??a).
+	 * akcije miša) i MouseMotionListener (za kretanje i povlačenje kursora miša).
 	 * 
-	 * Stisak dugmeta mi??a koristimo da odaberemo boju za crtanje, a povla??enje
+	 * Stisak dugmeta miša koristimo da odaberemo boju za crtanje, a povlačenje
 	 * koristimo za crtanje. 
 	 * 
 	 * @author damir
@@ -50,17 +50,17 @@ public class Painter {
 	 */
 	public static class PaintListener implements MouseListener, MouseMotionListener {
 		/**
-		 * Boja koja se koristi za crtanje. Ovdje ??emo spasiti boju koju
+		 * Boja koja se koristi za crtanje. Ovdje ćemo spasiti boju koju
 		 * korisnik odabere klikom.
 		 */
 		private Color selectedColor = Color.RED;
 		
 		/**
-		 * Metoda koja se automatski poziva pri kliku dugmeta mi??a.
+		 * Metoda koja se automatski poziva pri kliku dugmeta miša.
 		 * 
 		 * Provjerava koordinate na kojima je dugme bilo kliknuto i
 		 * ako koordinate odgovaraju prostoru na kojem je nacrtana jedna od boja
-		 * spa??avamo boju u atribut selectedColor.
+		 * spašavamo boju u atribut selectedColor.
 		 */
 		@Override
 		public void mousePressed(MouseEvent e) {
@@ -79,7 +79,7 @@ public class Painter {
 		}
 
 		/**
-		 * Metoda koja se automatski poziva svaki put kad se mi?? pomjeri
+		 * Metoda koja se automatski poziva svaki put kad se miš pomjeri
 		 * dok je dugme stisnuto.
 		 * 
 		 * U ovoj metodi koristimo boju koju smo spasili pri kliku (atribut
@@ -113,7 +113,7 @@ public class Painter {
 	}
 
 	/**
-	 * Vlastita klasa koja naslje??uje JPanel. U ovoj klasi redefini??emo
+	 * Vlastita klasa koja nasljeđuje JPanel. U ovoj klasi redefinišemo
 	 * paintComponent() tako da iscrtamo obojene pravougaonike u donjem dijelu
 	 * ekrana. 
 	 * 
@@ -122,8 +122,8 @@ public class Painter {
 	 */
 	public static class Canvas extends JPanel {
 		/**
-		 * Crta tri pravougaonika razli??itih boja jedan pored drugog
-		 * koje ??emo koristiti kao paletu na??eg programa.
+		 * Crta tri pravougaonika različitih boja jedan pored drugog
+		 * koje ćemo koristiti kao paletu našeg programa.
 		 */
 		@Override
 		public void paintComponent(Graphics g) {

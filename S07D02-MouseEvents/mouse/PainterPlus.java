@@ -1,4 +1,4 @@
-package predavanje.mouse;
+package predavanja;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 public class PainterPlus {
 	
 	/**
-	 * Lista boja koje korisnik mo??e odabrati za crtanje.
+	 * Lista boja koje korisnik može odabrati za crtanje.
 	 */
 	private static Color[] palette = new Color[] {
 		Color.WHITE,
@@ -27,7 +27,7 @@ public class PainterPlus {
 	};
 	
 	/**
-	 * Veli??ina kvadrati??a u paleti boja.
+	 * Veličina kvadratića u paleti boja.
 	 */
 	private static int colorPickerSize = 50;
 	
@@ -42,7 +42,7 @@ public class PainterPlus {
 		JFrame mainWindow = new JFrame("Paint+");
 		mainWindow.setContentPane(canvasPanel);
 		
-		// postavljamo ??irinu prozora tako da vidimo sve boje
+		// postavljamo širinu prozora tako da vidimo sve boje
 		mainWindow.setSize(palette.length * colorPickerSize, 500);
 		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mainWindow.setVisible(true);
@@ -52,13 +52,13 @@ public class PainterPlus {
 		private Color selectedColor = Color.RED;
 		
 		/**
-		 * Provjerava koordinate na kojima se nalazio kursor mi??a i poredi
+		 * Provjerava koordinate na kojima se nalazio kursor miša i poredi
 		 * s indeksima niza palette u kojem se nalaze boje iscrtane na dnu
 		 * ekrana. Ako se klik poklapa s nekom pojom, stavlja tu boju u
 		 * privatni atribut selectedColor.
 		 * 
-		 * Obratite pa??nju da ovdje koristimo dva privatna stati??ka atributa klase
-		 * PainterPlus kojima imamo pristup jer je klasa PaintListener statice
+		 * Obratite pažnju da ovdje koristimo dva privatna statička atributa klase
+		 * PainterPlus kojima imamo pristup jer je klasa PaintListener static
 		 * nested klasa koja pripada klasi PaintPlus. Ako bismo klasu PaintListener
 		 * izdvojili u poseban fajl, ovim atributima ne bismo imali pristup. 
 		 */
@@ -72,8 +72,8 @@ public class PainterPlus {
 						selectedColor = palette[i];
 						
 						// ako bismo ovdje zaboravili break, for petlja
-						// bi se nastavila izvr??avati za ostale boje
-						// a po??to bi uslov bio ispunjen i za njih,
+						// bi se nastavila izvršavati za ostale boje
+						// a pošto bi uslov bio ispunjen i za njih,
 						// bila bi odabrana posljednja broja u listi, a ne
 						// ona na koju je korisnik kliknuo
 						break;
@@ -111,12 +111,12 @@ public class PainterPlus {
 
 	public static class Canvas extends JPanel {
 		/**
-		 * Crta onoliko pravougaonika razli??itih boja koliko imamo elemenata
+		 * Crta onoliko pravougaonika različitih boja koliko imamo elemenata
 		 * u listi palette.
 		 * 
-		 * Obratite pa??nju da je palette privatni static atribut klase PainterPlus,
-		 * me??utim da mu jo?? uvijek imamo pristup iz nested static klase Canvas.
-		 * Ako bismo klasu Canvas izdvojili u poseban fajl, ne bismo vi??e imali pristup
+		 * Obratite pažnju da je palette privatni static atribut klase PainterPlus,
+		 * međutim da mu još uvijek imamo pristup iz nested static klase Canvas.
+		 * Ako bismo klasu Canvas izdvojili u poseban fajl, ne bismo više imali pristup
 		 * privatnim atributima.  
 		 */
 		@Override

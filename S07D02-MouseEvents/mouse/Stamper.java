@@ -1,4 +1,4 @@
-package predavanje.mouse;
+package predavanja;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -16,7 +16,7 @@ public class Stamper {
 	 * klase JPanel kao container.
 	 * 
 	 * Ovom container-u postavljamo boju pozadine na bijelu i dajemo
-	 * listener koji ??e reagovati na osnovne akcije mi??a (press,
+	 * listener koji će reagovati na osnovne akcije miša (press,
 	 * release, click, enter i exit).
 	 * 
 	 * @param args Argumenti komandne linije
@@ -37,19 +37,19 @@ public class Stamper {
 	
 	/**
 	 * Klasa koja implementira MouseListener tako da na klikanje
-	 * izvornog objekta na njemu crta kru??i?? na mjestu klika.
+	 * izvornog objekta na njemu crta kružić na mjestu klika.
 	 * 
 	 * @author damir
 	 *
 	 */
 	public static class StampListener implements MouseListener {
 		/**
-		 * Metoda dohva??a komponentu koja je primila klik, te njen Graphics
+		 * Metoda dohvaća komponentu koja je primila klik, te njen Graphics
 		 * objekat. Ovaj objekat koristimo da direktno na komponenti nacrtamo
-		 * kru??i?? koriste??i fillOval() metodu.
+		 * kružić koristeći fillOval() metodu.
 		 * 
-		 * NAPOMENA: Ovo nije najbolji na??in da se ovaj problem rije??i, ali
-		 * ??emo bolje rje??enje ostaviti za budu??nost.
+		 * NAPOMENA: Ovo nije najbolji način da se ovaj problem riješi, ali
+		 * ćemo bolje rješenje ostaviti za budućnost.
 		 * 
 		 */
 		@Override

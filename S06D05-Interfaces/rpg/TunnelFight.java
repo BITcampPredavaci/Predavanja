@@ -5,6 +5,8 @@ public class TunnelFight {
 	public static void main(String[] args) {
 		Dwarf defender = new Dwarf("Obrim, sin Agammov");
 		
+		// Obrim može pobijediti maksimalno 9 orka i proizvoljan broj goblina
+		// koji umiru nakon jednog Obrimovog napada.
 		GameObject[] attackers = new GameObject[] {
 			new Orc(),
 			new Orc(),

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products query="porsche">
+  <product id="15040679" url="http://www.pik.ba/artikal/15040679/porsche-cayenne-chrom-paket/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/27/04/slika-608877-549ecc0b93a1e-thumb.jpg"/>
+    <location>Ilidža</location>
+    <title>Porsche Cayenne Chrom paket</title>
+    <description>Cayenne</description>
+    <price currency="BAM">104000</price>
+    <date>2015-01-16T22:03</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15210678" url="http://www.pik.ba/artikal/15210678/porsche-cayenne-3-2-benzin-plin/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/28/04/slika-130505-549f735ea75db-thumb.jpg"/>
+    <location>Bugojno</location>
+    <title>PORSCHE CAYENNE 3.2 BENZIN PLIN</title>
+    <description>TOP STANJE BEZ MARKE ULAGANJA MOZE ZAMJENA</description>
+    <price currency="BAM">30000</price>
+    <date>2015-01-29T03:07</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="11683000" url="http://www.pik.ba/artikal/11683000/porsche-cayenne-turbo-magnum/">
+    <image url="http://s04.pikstatic.com/galerija/2014-09/14/08/slika-15377-5415d96ed5a67-thumb.jpg"/>
+    <location>Sarajevo - Centar</location>
+    <title>Porsche cayenne turbo magnum</title>
+    <description/>
+    <price>PO DOGOVORU</price>
+    <date>2015-01-29T23:10</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="14178944" url="http://www.pik.ba/artikal/14178944/porsche-cayenne-diesel-tiptronic-s-fuuuulloprema/">
+    <image url="http://s04.pikstatic.com/galerija/2014-10/11/08/slika-384416-54397bf1ca8ce-thumb.jpg"/>
+    <location>Banja Luka</location>
+    <title>Porsche Cayenne Diesel Tiptronic S Fuuuulloprema</title>
+    <description/>
+    <price currency="BAM">185000</price>
+    <date>2015-01-29T23:08</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="13882731" url="http://www.pik.ba/artikal/13882731/porsche-cayenne-3-2-v6/">
+    <image url="http://s03.pikstatic.com/galerija/2014-09/16/03/slika-726261-541836d8cff62-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Porsche Cayenne 3,2 V6</title>
+    <description>posjetite nas na www.asaautomarket.ba</description>
+    <price currency="BAM">30900</price>
+    <date>2015-01-29T07:51</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="7436531" url="http://www.pik.ba/artikal/7436531/porsche-boxter-3-2-benzin-cabrio-registrovan/">
+    <image url="http://s02.pikstatic.com/galerija/2013-06/22/09/slika-382541-a31cefe3cc5d-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Porsche boxter 3.2 benzin,cabrio, registrovan</title>
+    <description>POGLEDAJTE I DRUGA AUTA SA PROFILA</description>
+    <price>PO DOGOVORU</price>
+    <date>2015-01-28T07:12</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15628749" url="http://www.pik.ba/artikal/15628749/porsche-cayenne-s-top-stanje/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/09/07/slika-121609-54b021ff50a28-thumb.jpg"/>
+    <location>Sarajevo - Centar</location>
+    <title>Porsche Cayenne S; TOP STANJE</title>
+    <description>Cayenne S</description>
+    <price currency="BAM">28700</price>
+    <date>2015-01-27T20:57</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15122129" url="http://www.pik.ba/artikal/15122129/porsche-porshe-porse-924/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/21/01/slika-975427-5496bad51db67-thumb.jpg"/>
+    <location>Bijeljina</location>
+    <title>Porsche PORSHE PORSE 924</title>
+    <description>NA DATUM KUPOVINE REGISTRUJEM NA VASE IME.</description>
+    <price currency="BAM">4999</price>
+    <date>2015-01-27T12:23</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="14983973" url="http://www.pik.ba/artikal/14983973/porsche-cayenne/">
+    <image url="http://s03.pikstatic.com/galerija/2014-12/11/01/slika-735328-548994d11b353-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>PORSCHE CAYENNE</title>
+    <description/>
+    <price currency="BAM">60840</price>
+    <date>2015-01-27T11:01</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="11391107" url="http://www.pik.ba/artikal/11391107/porsche-cayenne-turbo-77000-presao/">
+    <image url="http://s03.pikstatic.com/galerija/2014-03/01/14/slika-113061-4412d020eff2-thumb.jpg"/>
+    <location>Sarajevo - Centar</location>
+    <title>Porsche Cayenne Turbo 77000 presao</title>
+    <description>Porsche Cayenne Turbo</description>
+  </product>
+</products>

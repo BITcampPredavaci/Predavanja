@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<products query="macbook od 200">
+  <product id="15294037" url="http://www.pik.ba/artikal/15294037/apple-macbook-pro-15-4/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/04/06/slika-615714-54a9764fe0565-thumb.jpg"/>
+    <location>Brčko</location>
+    <title>Apple MacBook Pro 15.4"</title>
+    <description>MacBook Pro 15.4"</description>
+    <price currency="BAM">420</price>
+    <date>2015-01-04T18:23</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15238402" url="http://www.pik.ba/artikal/15238402/apple-macbook-pro-15/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/30/08/slika-72402-54a2578ba55bf-thumb.jpg"/>
+    <location>Trebinje</location>
+    <title>Apple MacBook Pro 15"</title>
+    <description>Mac Book Pro</description>
+    <price currency="BAM">780</price>
+    <date>2014-12-30T08:37</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15615941" url="http://www.pik.ba/artikal/15615941/laptop-macbook/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/27/04/slika-250917-54c706bf5d28d-thumb.jpg"/>
+    <location>Živinice</location>
+    <title>Laptop MacBook</title>
+    <description>Laptop MacBOOK - Apple MODEL A1181</description>
+    <price currency="BAM">240</price>
+    <date>2015-01-27T04:48</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15604497" url="http://www.pik.ba/artikal/15604497/apple-macbook-air-11/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/26/02/slika-655716-54c63c135e60a-thumb.jpg"/>
+    <location>Novo Sarajevo</location>
+    <title>Apple MACBook Air 11</title>
+    <description>Apple MACBook Air 11/koristeno 6 mjeseci garancija</description>
+    <price currency="BAM">999</price>
+    <date>2015-01-26T14:09</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15646057" url="http://www.pik.ba/artikal/15646057/macbook-pro-2-4-ghz-intel-core-i5/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/28/10/slika-1044076-54c9587c1719d-thumb.jpg"/>
+    <location>Sarajevo - Centar</location>
+    <title>MacBook Pro 2,4 GHz Intel Core i5</title>
+    <description/>
+    <price currency="BAM">1850</price>
+    <date>2015-01-28T22:45</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15645425" url="http://www.pik.ba/artikal/15645425/macbook-air-13-3/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/28/10/slika-944-54c94fb43842c-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Macbook air 13,3</title>
+    <description>128 ssd , 4gb ram 1333 mhz ddr3 , 1,7ghz intel core i5</description>
+    <price currency="BAM">1080</price>
+    <date>2015-01-28T22:06</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15645372" url="http://www.pik.ba/artikal/15645372/macbook-laptop/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/28/10/slika-101888-54c94de67ac59-thumb.jpg"/>
+    <location>Sarajevo - Centar</location>
+    <title>Macbook Laptop</title>
+    <description>Macbook</description>
+    <price currency="BAM">450</price>
+    <date>2015-01-28T22:02</date>
+    <state>NOVO</state>
+  </product>
+  <product id="15640833" url="http://www.pik.ba/artikal/15640833/laptop-macbook/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/19/04/slika-250897-54bd1caf367e7-thumb.jpg"/>
+    <location>Tuzla</location>
+    <title>Laptop MacBook</title>
+    <description>Laptop MacBook 13.3 2.4 GHz core 2 duo </description>
+    <price currency="BAM">200</price>
+    <date>2015-01-28T17:57</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15639065" url="http://www.pik.ba/artikal/15639065/macbook-pro/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/27/09/slika-1043199-54c7fc3c1e76b-thumb.jpg"/>
+    <location>Banja Luka</location>
+    <title>MacBook Pro</title>
+    <description>MacBook Pro</description>
+    <price currency="BAM">1250</price>
+    <date>2015-01-28T16:13</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15639060" url="http://www.pik.ba/artikal/15639060/macbook-pro/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/27/10/slika-1043199-54c7fd4aedfd9-thumb.jpg"/>
+    <location>Banja Luka</location>
+    <title>MacBook Pro</title>
+    <description>MacBook Pro</description>
+    <price currency="BAM">1400</price>
+    <date>2015-01-28T16:12</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15639057" url="http://www.pik.ba/artikal/15639057/apple-macbook-pro/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/27/09/slika-1043199-54c7f8af4a3d3-thumb.jpg"/>
+    <location>Banja Luka</location>
+    <title>Apple Macbook Pro</title>
+    <description>Macbook Pro</description>
+    <price currency="BAM">1600</price>
+    <date>2015-01-28T16:12</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15506855" url="http://www.pik.ba/artikal/15506855/apple-macbook-pro-15-laptop/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/01/11/slika-14499-547c3ead63ad1-thumb.jpg"/>
+    <location>Zenica</location>
+    <title>Apple MacBook Pro 15 Laptop</title>
+    <description>Intel Core2Duo, 4GB RAM, 500GB HDD, nVidia </description>
+    <price currency="BAM">950</price>
+    <date>2015-01-28T15:30</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15506852" url="http://www.pik.ba/artikal/15506852/apple-macbook-pro-15-intel-i7/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/23/08/slika-14499-5499bbfc15f89-thumb.jpg"/>
+    <location>Zenica</location>
+    <title>Apple MacBook Pro 15 Intel i7</title>
+    <description>intel i7, 4GB RAM, 500GB HDD, Intel + ATI 6490</description>
+    <price currency="BAM">1300</price>
+    <date>2015-01-28T15:29</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="14809711" url="http://www.pik.ba/artikal/14809711/apple-macbook-air-13-1-4ghz-core-i5-128gb-md760zp-b/">
+    <image url="http://s04.pikstatic.com/galerija/2014-11/29/01/slika-986486-5479b5ba933ff-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Apple Macbook Air 13" 1.4GHz Core i5 128GB - MD760ZP/B</title>
+    <description>(2014 New Version)</description>
+    <price currency="BAM">1650</price>
+    <date>2015-01-28T14:46</date>
+    <state>NOVO</state>
+  </product>
+  <product id="15636504" url="http://www.pik.ba/artikal/15636504/apple-macbook-pro-13/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/28/01/slika-1043536-54c8d03cdae7d-thumb.jpg"/>
+    <location>Prnjavor</location>
+    <title>Apple MacBook Pro 13"</title>
+    <description>MacBook Pro 13" i5 4GB DDR 1600</description>
+    <price currency="BAM">1400</price>
+    <date>2015-01-28T13:25</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15050916" url="http://www.pik.ba/artikal/15050916/apple-macbook-black-13-3/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/16/10/slika-162189-548ff498b5cf4-thumb.jpg"/>
+    <location>Živinice</location>
+    <title>APPLE Macbook Black 13.3</title>
+    <description>OSX 10.6, Intel 2,0 GHz, 2 GB DDR2, Webcam</description>
+    <price currency="BAM">250</price>
+    <date>2015-01-28T10:56</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15506859" url="http://www.pik.ba/artikal/15506859/apple-macbook-pro-13-intel-i5/">
+    <image url="http://s03.pikstatic.com/galerija/2014-11/07/12/slika-14499-545ca77fbc243-thumb.jpg"/>
+    <location>Zenica</location>
+    <title>Apple MacBook Pro 13 Intel i5</title>
+    <description>Intel i5 2,3Ghz, 4GB RAM, 320GB HDD, Intel 3000 </description>
+    <price currency="BAM">950</price>
+    <date>2015-01-28T09:58</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15632414" url="http://www.pik.ba/artikal/15632414/apple-macbook-pro-15-core-2-duo-model-5-4/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/10/07/slika-557722-54b16b8a5f89b-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Apple MacBook Pro 15", core 2 duo, model 5.4</title>
+    <description>U perfekt stanju</description>
+    <price currency="BAM">880</price>
+    <date>2015-01-28T07:44</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15632413" url="http://www.pik.ba/artikal/15632413/apple-macbook-pro-13-cpu-i5-godiste-2011/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/26/02/slika-557722-549d69cb4cb80-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Apple MacBook Pro 13", cpu: i5, godiste 2011</title>
+    <description>U odlicnom stanju</description>
+    <price currency="BAM">940</price>
+    <date>2015-01-28T07:44</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15632411" url="http://www.pik.ba/artikal/15632411/apple-macbook-pro-13-3-cpu-i5-2-5ghz-mid-2012/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/26/03/slika-557722-549d6a571bc3a-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Apple MacBook Pro, 13.3", cpu i5 2.5GHz, mid 2012</title>
+    <description>U ekstra dobrom stanju, bukvalno kao nov</description>
+    <price currency="BAM">1280</price>
+    <date>2015-01-28T07:44</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15632410" url="http://www.pik.ba/artikal/15632410/apple-macbook-pro-13-cpu-i5-late-2011/">
+<image url="http://s04.pikstatic.com/galerija/2014-12/26/02/slika-557722-549d69cb4cb80-thumb.jpg"/><location>Sarajevo, Novi Grad</location><title>Apple MacBook Pro 13", cpu: i5, late 2011</title><description>U odlicnom stanju, kao nov</description><price currency="BAM">1180</price><date>2015-01-28T07:44</date><state>KORIŠTENO</state></product>
+  <product id="15632407" url="http://www.pik.ba/artikal/15632407/apple-macbook-air-13-3-2014-godiste/">
+    <image url="http://s04.pikstatic.com/galerija/2014-12/26/03/slika-557722-549d6bfb1a175-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Apple Macbook Air 13.3", 2014. godiste</title>
+    <description>3 godine garancije, bez packice na sebi, bukvalno nov</description>
+    <price currency="BAM">1690</price>
+    <date>2015-01-28T07:44</date>
+    <state>NOVO</state>
+  </product>
+  <product id="15632406" url="http://www.pik.ba/artikal/15632406/apple-macbook-air-13-3-late-2010/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/10/07/slika-557722-54b16a5b06d1e-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Apple Macbook Air 13.3", late 2010</title>
+    <description>Odlicno ocuvan, u extra stanju</description>
+    <price currency="BAM">890</price>
+    <date>2015-01-28T07:44</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15629623" url="http://www.pik.ba/artikal/15629623/macbook-air-13/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/27/09/slika-1043199-54c7f9c30d454-thumb.jpg"/>
+    <location>Banja Luka</location>
+    <title>MacBook Air 13"</title>
+    <description>MacBook Air 13"</description>
+    <price currency="BAM">1200</price>
+    <date>2015-01-27T21:49</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15619328" url="http://www.pik.ba/artikal/15619328/apple-macbook-pro-15/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/27/12/slika-798732-54c778efdd668-thumb.jpg"/>
+    <location/>
+    <title>Apple MacBook Pro 15</title>
+    <description>Laptop je bez mane:)</description>
+    <price currency="BAM">1100</price>
+    <date>2015-01-27T12:42</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15056792" url="http://www.pik.ba/artikal/15056792/apple-macbook-pro-retina-15-40-i7-16gb/">
+    <image url="http://s03.pikstatic.com/galerija/2014-12/16/04/slika-67383-54904b95326ad-thumb.jpg"/>
+    <location>Banja Luka</location>
+    <title>Apple MacBook Pro Retina (15.40'',i7, 16GB)</title>
+    <description>24 mjeseca garancija, citajte detaljan opis</description>
+    <price currency="BAM">3620</price>
+    <date>2015-01-26T23:26</date>
+    <state>NOVO</state>
+  </product>
+  <product id="13221642" url="http://www.pik.ba/artikal/13221642/macbook-air/">
+    <image url="http://s04.pikstatic.com/galerija/2014-07/15/09/slika-47619-53c5873038a11-thumb.jpg"/>
+    <location>Sarajevo, Novi Grad</location>
+    <title>Macbook Air</title>
+    <description>Macbook Air 13"</description>
+    <price currency="BAM">1450</price>
+    <date>2015-01-26T13:42</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="15603790" url="http://www.pik.ba/artikal/15603790/apple-macbook-air-13-3-intel-i5/">
+    <image url="http://s04.pikstatic.com/galerija/2015-01/15/03/slika-14499-54b7cf2a37213-thumb.jpg"/>
+    <location>Zenica</location>
+    <title>Apple MacBook Air 13,3 intel i5</title>
+    <description>intel i5 1,7GHz, 4GB RAM, 128GB SSD</description>
+    <price currency="BAM">1200</price>
+    <date>2015-01-26T13:27</date>
+    <state>KORIŠTENO</state>
+  </product>
+  <product id="14326565" url="http://www.pik.ba/artikal/14326565/macbook-pro-15-retina-qc-i7-2-3ghz-16gb-512gb/">
+    <image url="http://s03.pikstatic.com/galerija/2014-10/23/10/slika-534901-54495ef5c1859-thumb.jpg"/>
+    <location>Bijeljina</location>
+    <title>MacBook Pro 15" Retina/QC i7 2.3GHz/16GB/512GB</title>
+    <description>MacBook Pro 15" Retina/QC i7 2.3GHz/16GB/512GB </description>
+    <price currency="BAM">5000</price>
+    <date>2015-01-26T09:58</date>
+    <state>NOVO</state>
+  </product>
+  <product id="14956127" url="http://www.pik.ba/artikal/14956127/apple-macbook-pro-13-polovan/">
+    <image url="http://s03.pikstatic.com/galerija/2014-12/09/03/slika-655716-54870da23926f-thumb.jpg"/>
+    <location>Novo Sarajevo</location>
+    <title>Apple MacBook Pro 13 - Polovan</title>
+    <description>MacBook Pro 13, Late 2010, Core 2 Duo 2,4 GHz. Garancija 6 mjeseci, Kontakt 033 642 012.</description>
+    <price currency="BAM">849</price>
+    <date>2015-01-26T09:44</date>
+    <state>KORIŠTENO</state>
+  </product>
+</products>

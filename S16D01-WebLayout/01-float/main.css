@@ -1,0 +1,73 @@
+.floated-image {
+	/* slika "pluta" unutar teksta na desnoj strani, tako da je
+	 * tekst zaobilazi s lijeve. Obratiti pažnju na to da sliku
+	 * zaobilazi tekst ne samo paragrafa u kojem je slika već 
+	 * i tekst iz drugog paragrafa (pogledajte HTML i rezultat).
+	 */
+	float: right;
+}
+
+nav li {
+	/* Ukidamo stil elementima liste iz navigacije kako se u
+	 * navigaciji ne bi prikazivali brojevi ili bulleti.
+	 * Ostale zanimljive vrijednosti za ovu osobinu su:
+	 * - disc:    bulleti
+	 * - decimal: decimalni brojevi
+	 */
+	list-style: none;
+}
+
+.nav-list {
+	/* Ukidamo padding listi kako bi elementi liste išli uz
+	 * lijevi kraj container-a. Ovaj padding postoji kako bi se
+	 * osigurao prostor za brojeve/bullete koje smo ukinuli
+	 */
+	padding-left: 0;
+}
+
+.page-nav {
+	/* Koristimo `float` osobinu da navigaciju stavimo na krajnju
+	 * lijevu stranu stranice. Moramo izričito odrediti širinu elementa
+	 * kako bismo se mogli osigurati do imamo dovoljno prostora na
+	 * stranici za prikaz svih float-anih elemenata.
+	 */
+	float: left;
+	width: 30%;
+}
+
+.content {
+	/* Koristimo `float` osobinu da glavni sadržaj stranice stavimo
+	 * kraj navigacije. Nije potrebno koristi `float: right;` da
+	 * sadržaj bude s desne strane navigacije jer svi elementi
+	 * float-ani lijevo idu onoliko lijevo dok ne dođu do ranije
+	 * float-anog elementa. Tj. ako je više elemenata zaredom float-ano
+	 * oni će se prikazivati s lijeva na desno onim redoslijedom kojim
+	 * su navedeni u HTML-u.
+	 * Obratiti pažnju na to da je širina .content elementa postavljena
+	 * tako da .page-nav i .content (dva elementa koji idu jedan iza
+	 * drugog) imaju zajedničku širinu od 100%.
+	 */
+	float: left;
+	width: 70%;
+}
+
+.container {
+	/* Određujemo širinu sadržaja stranice tako da se apsolutne
+	 * veličine elemenata na stranici neće mijenjati promjenom
+	 * veličine prozora browser-a. Drugim riječima, element .page-nav
+	 * će biti visok 30% od 1000px, tj. 300px, dok će .content biti
+	 * širok 700px.
+	 * Ako želimo fluidan dizajn (tj. da se dimenzije elemenata
+	 * stranice mijenjaju kako se mijenja veličina browsera) onda
+	 * trebamo ili izbrisati postavljenu širinu, ili je zadati u
+	 * relativnim jedinicama (npr. procentima).
+	 */
+	width: 1000px;
+
+	/* Kada je širina stranice zadana, onda možemo postaviti lijevu
+	 * i desnu marginu na `auto` tako da se čitav sadržaj stranice
+	 * nalazi na sredini ekrana (browser će se potruditi da izjednači
+	 * veličinu lijeve i desne margine).
+	 */
+	margin: 0 auto;
+}

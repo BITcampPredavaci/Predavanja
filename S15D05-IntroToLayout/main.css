@@ -1,0 +1,47 @@
+body {
+	/* shorthand za razne background osobine, koristimo ga da postavimo
+	 * samo boju (mogli smo koristiti i `background-color`)
+	 */
+	background: #FFC8B3;
+}
+
+.cup {
+	font-family: Arial;
+	text-transform: uppercase;
+
+	/* linija oko čitavog elementa */
+	border: 1px solid #00B293;
+	width: 55px;
+	height: 55px;
+
+	/* ako sadržaj elementa izlazi van okvira, onda će browser
+	 * prikazati scrollbar. ako sadržaj ne prelazi okvir, scrollbar
+	 * neće biti prikazan.
+	 * Druge podržane vrijednosti:
+	 * - scrollbar: scrollbar će biti prikazan čak i ako je sadržaj
+	 *              manji od okvira
+	 * - hidden:    sadržaj koji prelazi okvir će biti sakriven i neće
+	 *              biti scrollbara
+	 */
+	overflow: auto;
+}
+
+strong {
+	/* <strong> element se prikazuje "inline", što znači da se drugi
+	 * inline elementi mogu prikazati kraj njega (u istom redu). Inline
+	 * elementima su dimenzije (visina i širina) automatski određene,
+	 * te ne podržavaju vertikalne margine i padding.
+	 * Elementi kao što su <div> su "block" elementi: drugi elementi se
+	 * prikazuju iznad ili ispod njih (osim ako nisu float-ani), mogu
+	 * im se odrediti dimenzije koristeći "width" i "height" atribute,
+	 * te im se mogu zadati i vertikalne margine i padding.
+	 * Postoji i kombinacija "inline-block" koju koristimo za elemente
+	 * koji se trebaju prikazati u redu, a kojima se trebaju moći odrediti
+	 * dimenzije. Primjer "inline-block" elemenata su dugmad i slike.
+	 */
+	display: inline-block;
+
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+}

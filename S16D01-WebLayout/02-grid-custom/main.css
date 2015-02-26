@@ -1,0 +1,91 @@
+/* Pravilo koje se odnosi na SVE elemente stranice */
+* {
+	/* Kažemo elementima da prilikom računanja dimenzije svoje kutije u nju
+	 * uračunaju padding i border. Tj. ako element ima postavljen `width` na
+	 * 300px, lijevi i desni border na po 5px, te lijevi i desni padding na po 10px
+	 * onda ostaje 300px - 2*5px - 2*10px = 270px za sadržaj elementa.
+	 * Ako ne bismo zadali ovo pravilo onda bi vrijednost `box-sizing` osobine
+	 * bila `content-box`, tj. 300px bi bila širina sadržaja elementa, a veličine
+	 * bordera i paddinga bi se dodavale na na tu širinu, te bi element bio velik
+	 * ukupno 330px.
+	*/
+	box-sizing: border-box;
+}
+
+/* Otkomentarisati sljedeće pravilo za debugging */
+/*div {
+	border: 1px solid black; 
+}
+*/
+
+/* Svi elementi koji se smještaju u kolone našeg grida trebaju biti
+ * float-ane lijevo i imati padding od 2%.
+ */
+.columns-1,
+.columns-2,
+.columns-3,
+.columns-4 {
+	float: left;
+	padding: 2%;	
+}
+
+/* Naš grid se sastoji od četiri kolone. Element koji se smješta u jednu
+ * kolonu dakle treba imati širinu 25% svog kontejnera.
+ */
+.columns-1 {
+	width: 25%;
+}
+
+.columns-2 {
+	width: 50%;
+}
+
+.columns-3 {
+	width: 75%;
+}
+
+.columns-4 {
+	width: 100%;
+}
+
+/* Clearfix: svaki red treba biti onoliko visok koliko je visok najviši element
+ * koji mu pripada. Ovo radimo tako što dodajemo novi element koristeći CSS
+ * pseudo-element `::after` (možemo pisati i `:after`) kojem dajemo osobinu
+ * `clear: both;` što znači da će zaustaviti float-anje elemenata oko njega.
+ *
+ * Više o ovom clearfix-u možete pročitati ovdje:
+ * http://fuseinteractive.ca/blog/understanding-humble-clearfix
+ */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* Media query: ako je stranica uža od 900px primjenjujemo nove stilove. 
+ * Na ovaj način možemo implementirati responzivni dizajn, tj. dizajn koji
+ * se mijenja u zavisnosti od toga koji uređaj korisnik koristi za pregled
+ * stranice (telefon, tablet ili kompjuter).
+ */
+@media (max-width: 900px) {
+	/* Na užim ekranima vraćamo fluidni dizajn */
+	.container {
+		width: auto;
+	}
+
+	/* Proširujemo columns-1 tako da zauzima pola ekrana */
+	.columns-1 {
+		width: 50%;
+	}
+
+	/* Proširujemo ostale kolone na punu širinu stranice */
+	.columns-2,
+	.columns-3 {
+		width: 100%;
+	}
+}

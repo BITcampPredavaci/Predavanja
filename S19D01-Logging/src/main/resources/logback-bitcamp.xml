@@ -1,0 +1,12 @@
+<configuration>
+
+	<appender name="BITCAMP" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>Bitcamp appender: %-5level %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="ba.bitcamp" level="warn">
+		<appender-ref ref="BITCAMP" />
+	</logger>
+</configuration>

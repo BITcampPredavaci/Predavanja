@@ -5,6 +5,7 @@ public class CoffeeShop {
 		Beverage bev = new Coffee();
 		bev = new BeverageWithMilk(bev);
 		bev = new BeverageWithChocolate(bev);
+		// this geoes well with builder pattern
 		
 		System.out.println(bev.price());
 	}
